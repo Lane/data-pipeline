@@ -9,17 +9,16 @@ A docker environment with tippecanoe, mapshaper, R, csvkit, python, node, etc. r
 - Downloading from S3
 - Downloading from API endpoint
 
-
 ### Transforming Data
 
-- Join / Merge
-- Slice
-- Group
-- Map Tiles
+- JSON
+- Static CSV
+- GeoJSON
+- Vector Tiles
 
 ### Loading Data
 
-- Deploying to Database
+- Static file to Database
 - Uploading to S3
-- Deploying to Mapbox
+- Deploying vector tiles to Mapbox
 
