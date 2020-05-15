@@ -6,11 +6,13 @@ A docker environment with tippecanoe, mapshaper, R, csvkit, python, node, etc. r
 
 ### Extracting Data
 
-- Downloading from S3
-- Downloading from API endpoint
+- From static files on S3
+- From API endpoints
+- From U.S. Census (Geometry + Data)
 
 ### Transforming Data
 
+- Join / Merge / Group / Split
 - JSON
 - Static CSV
 - GeoJSON
