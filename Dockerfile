@@ -56,7 +56,7 @@ ENV R_APT_PACKAGES="\
 #   * tigris
 ENV R_PACKAGES='"tidyverse", "tidycensus", "sf", "tigris"'
 RUN apt-get install -y $R_APT_PACKAGES \
-  && R -e 'install.packages(c('$R_PACKAGES'))'
+  && R -e 'install.packages(c('"$R_PACKAGES"'))'
 # #############
 
 
